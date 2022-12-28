@@ -25,7 +25,7 @@
     left : 50%;
     transform : translateX(-50%);
     font-size : 1.2rem;
-    margin : 1rem;
+    margin : 1.5rem;
 }
 
 .history .os .btn{
@@ -53,9 +53,8 @@
 }
 
 .snippets{
-    background-color : violet;
     text-align : center;
-    padding : 1rem 0rem;
+    padding : 3rem 0rem;
     padding-top : 5rem;
 }
 
@@ -66,10 +65,40 @@
 
 .snippets p{
     width : 45%;
-    background-color : orange;
     position : relative;
     left : 50%;
     transform : translateX(-50%);
     font-size : 1.15rem;
     line-height: 1.75rem;
 }
+
+.computer {
+    padding : 1.75rem 0rem;
+}
+
+.computer img{
+    height : 450px;
+    width : 600px;
+}
+
+.computer-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.computer-text div{
+    margin : 1.5rem 0rem;
+}
+
+
+.computer-text div p{
+    padding : 1.5rem 0rem;
+    width : 65%;
+    font-size : 1.25rem;
+}
+
+.computer-text div{
+    margin-left : 6rem;
+}
+
