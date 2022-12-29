@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
+/*
+    MEDIA QUERIES
+    HOVER EFFECTS 
+    BOX-SHADOW
+    INTERSECTION OBSERVERS
+*/
+
+
 *,*::before,*::after{
     margin : 0rem;
     padding : 0rem;
