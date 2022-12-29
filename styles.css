@@ -10,7 +10,6 @@
     background : url("./images/bg-header-desktop.png") no-repeat center center/cover;
 }
 
-
 .copyright{
     margin-top : 5rem;
 }
@@ -62,9 +61,8 @@
     padding : .75rem;
 }
 
-
 .snippets p{
-    width : 45%;
+    width : 50%;
     position : relative;
     left : 50%;
     transform : translateX(-50%);
@@ -91,7 +89,6 @@
     margin : 1.5rem 0rem;
 }
 
-
 .computer-text div p{
     padding : 1.5rem 0rem;
     width : 65%;
@@ -100,5 +97,63 @@
 
 .computer-text div{
     margin-left : 6rem;
+}
+
+.Access {
+    margin : 5rem 0rem;
+}
+
+.Access h1{
+    text-align : center;
+    margin-bottom : 1.5rem;
+}
+
+.Access p{
+    text-align : center;
+    font-size : 1.2rem;
+    width : 50%;
+    position : relative;
+    left : 50%;
+    transform : translateX(-50%);
+    line-height : 1.5rem;
+}
+
+.tabletImg img{
+    position : relative;
+    left : 50%;
+    transform: translateX(-50%);
+}
+
+.charge h1{
+    text-align : center;
+}
+
+.charge p{
+    text-align : center;
+    margin : 1.2rem;
+}
+
+.sneak-peak{
+    text-align: center;
+    display : flex;
+    padding : 3rem 0rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sneak-peak div h1{
+    margin : 1.25rem 0rem;
+}
+
+.sneak-peak div{
+    flex : 1;
+    height : 200px;
+}
+
+.sneak-peak div p{
+    width : 70%;
+    position: relative;
+    left : 50%;
+    transform : translateX(-50%);
 }
 
