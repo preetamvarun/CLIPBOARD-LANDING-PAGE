@@ -181,5 +181,33 @@
     margin-bottom : 1.5rem;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size : 1.35rem;
+    padding : 2rem 0rem;
+    background-color : hsl(200, 16%, 85%);
+}
 
+.footer > img{
+    margin-top : 1.35rem;
+    height : 60px;
+    width : 60px;
+}
 
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
+.social-media img{
+    padding : 0rem .75rem;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li {
+    padding : .75rem 0rem;
+}
