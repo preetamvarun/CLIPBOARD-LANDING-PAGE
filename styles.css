@@ -27,7 +27,7 @@
     margin : 1.5rem;
 }
 
-.history .os .btn{
+.os .btn{
     border : none;
     padding : 1rem 3.5rem;
     border-radius : 35px;
@@ -35,19 +35,19 @@
 
 }
 
-.history .os .btn-IOS {
+.os .btn-IOS {
     margin-right : .75rem;
 }
 
-.history .os .btn-MAC{
+.os .btn-MAC{
     margin-left : .75rem;
 }
 
-.history .os .btn-IOS{
+.os .btn-IOS{
     background-color : green;
 }
 
-.history .os .btn-MAC{
+.os .btn-MAC{
     background-color : blue;
 }
 
@@ -111,7 +111,7 @@
 .Access p{
     text-align : center;
     font-size : 1.2rem;
-    width : 50%;
+    width : 55%;
     position : relative;
     left : 50%;
     transform : translateX(-50%);
@@ -166,3 +166,17 @@
 }
 
 
+.clipboard{
+    text-align : center;
+    margin : 5rem 0rem;
+}
+
+.clipboard p{
+    margin : 1.5rem 0rem;
+    width : 50%;
+    position: relative;
+    left : 50%;
+    transform : translateX(-50%);
+    line-height : 1.75rem;
+    margin-bottom : 1.5rem;
+}
