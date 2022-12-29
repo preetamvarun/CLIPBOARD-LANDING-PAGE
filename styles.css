@@ -157,3 +157,12 @@
     transform : translateX(-50%);
 }
 
+.companies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin : 5rem 0rem;
+    margin-top : 2rem;
+}
+
+
