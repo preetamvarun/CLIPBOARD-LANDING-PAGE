@@ -268,7 +268,7 @@ body p{
 
 .sneak-peak div{
     flex : 1;
-    height : 200px;
+    height : 280px;
 }
 
 @media (min-width : 530px) and (max-width : 767px){
