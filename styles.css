@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
-/*
-    HOVER EFFECTS 
-    BOX-SHADOW
-    INTERSECTION OBSERVERS
-*/
-
-
 *,*::before,*::after{
     margin : 0rem;
     padding : 0rem;
@@ -21,6 +14,11 @@ body {
 
 body h1{
     font-weight: 600;
+}
+
+body p{
+    color : hsl(201, 11%, 66%);
+    font-size : 1.2rem;
 }
 
 .history{
@@ -75,6 +73,7 @@ body h1{
     padding : 1rem 3.5rem;
     border-radius : 35px;
     color : white;
+    border-bottom: 4px solid rgb(81, 75, 75);
 }
 
 @media (max-width : 529px){
