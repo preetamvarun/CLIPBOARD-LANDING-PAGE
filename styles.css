@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
 /*
-    MEDIA QUERIES
     HOVER EFFECTS 
     BOX-SHADOW
     INTERSECTION OBSERVERS
@@ -52,6 +51,18 @@ body h1{
     font-size : 1.2rem;
     margin : 1.5rem;
 }
+
+@media (max-width : 529px){
+    .history p{
+        width : 90%;
+        position: relative;
+        left : 50%;
+        transform: translateX(-50%);
+        font-size : 1rem;
+        margin : 1.5rem 0rem;
+    }
+}
+
 @media (min-width : 530px) and (max-width : 767px){
     .history p{
         margin : 1.5rem 0rem;
@@ -64,7 +75,16 @@ body h1{
     padding : 1rem 3.5rem;
     border-radius : 35px;
     color : white;
+}
 
+@media (max-width : 529px){
+    #IOS-UP, #IOS-DOWN{
+        margin-left : .5rem;
+    }
+    #MAC-UP, #MAC-DOWN{
+        margin-right : .5rem;
+        margin-top : .5rem;
+    }
 }
 
 .os .btn:hover{
@@ -112,6 +132,12 @@ body h1{
     }
 }
 
+@media (max-width : 529px){
+    .snippets p{
+        width : 90%;
+    }
+}
+
 .computer {
     padding : 1.75rem 0rem;
 }
@@ -135,6 +161,17 @@ body h1{
     justify-content: space-between;
 }
 
+
+@media (max-width : 529px){
+    .computer-search{
+        display: flex;
+        flex-direction: column;
+    }
+    .computer img{
+        width : 300px;
+    }
+}
+
 .computer-text div{
     margin : 1.5rem 0rem;
 }
@@ -144,6 +181,7 @@ body h1{
     width : 65%;
     font-size : 1.25rem;
 }
+
 
 @media (max-width : 1024px){
     .computer-text div p{
@@ -181,6 +219,12 @@ body h1{
     }
 }
 
+@media (max-width : 529px){
+    .Access p{
+        width : 85%;
+    }
+}
+
 .tabletImg img{
     position : relative;
     left : 50%;
@@ -191,6 +235,13 @@ body h1{
     .tabletImg img{
         height : 400px;
         width : 480px;
+    }
+}
+
+@media (max-width : 529px){
+    .tabletImg img{
+        height : 350px;
+        width : 400px;
     }
 }
 
@@ -222,6 +273,16 @@ body h1{
 }
 
 @media (min-width : 530px) and (max-width : 767px){
+    .sneak-peak{
+        display: flex;
+        flex-direction: column;
+    }
+    .sneak-peak div{
+        margin : 1rem;
+    }
+}
+
+@media (max-width : 529px){
     .sneak-peak{
         display: flex;
         flex-direction: column;
@@ -273,6 +334,16 @@ body h1{
     }
 }
 
+@media (max-width : 529px){
+    .companies{
+        display: flex;
+        flex-direction: column;
+    }
+    .companies img{
+        margin : 1rem;
+    }
+}
+
 .clipboard{
     text-align : center;
     margin : 5rem 0rem;
@@ -291,6 +362,12 @@ body h1{
 @media (min-width : 530px) and (max-width : 767px){
     .clipboard p{
         width: 70%;
+    }
+}
+
+@media (max-width : 529px){
+    .clipboard p{
+        width : 90%;
     }
 }
 
@@ -333,6 +410,33 @@ body h1{
 
 .footer ul li {
     padding : .75rem 0rem;
+}
+
+@media (max-width : 529px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size : 1rem;
+    }
+
+    .footer > img{
+        position: relative;
+        left : 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer .faq ul, .footer .kit ul, .footer .install ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .social-media{
+        display: flex;
+        justify-content: center;
+        margin-top : .75rem;
+    }
 }
 
 
