@@ -30,7 +30,7 @@ body h1{
     background : url("./images/bg-header-desktop.png") no-repeat center center/cover;
 }
 
-@media (max-width : 768px){
+@media (max-width : 1024px){
     .history{
         width : 100%;
     }
@@ -51,6 +51,12 @@ body h1{
     transform : translateX(-50%);
     font-size : 1.2rem;
     margin : 1.5rem;
+}
+@media (min-width : 530px) and (max-width : 767px){
+    .history p{
+        margin : 1.5rem 0rem;
+        width : 65%;
+    }
 }
 
 .os .btn{
@@ -169,10 +175,23 @@ body h1{
     line-height : 1.5rem;
 }
 
+@media (min-width : 530px) and (max-width : 767px){
+    .Access p{
+        width : 75%;
+    }
+}
+
 .tabletImg img{
     position : relative;
     left : 50%;
     transform: translateX(-50%);
+}
+
+@media (min-width : 530px) and (max-width : 767px){
+    .tabletImg img{
+        height : 400px;
+        width : 480px;
+    }
 }
 
 .charge h1{
@@ -192,6 +211,7 @@ body h1{
     justify-content: space-evenly;
 }
 
+
 .sneak-peak div h1{
     margin : 1.25rem 0rem;
 }
@@ -199,6 +219,16 @@ body h1{
 .sneak-peak div{
     flex : 1;
     height : 200px;
+}
+
+@media (min-width : 530px) and (max-width : 767px){
+    .sneak-peak{
+        display: flex;
+        flex-direction: column;
+    }
+    .sneak-peak div{
+        margin : 1rem;
+    }
 }
 
 .sneak-peak div p{
@@ -217,7 +247,6 @@ body h1{
     }
 }
 
-
 .companies{
     display: flex;
     justify-content: space-evenly;
@@ -231,6 +260,16 @@ body h1{
     .companies img{
         height : 60px;
         width : 100px;
+    }
+}
+
+@media (min-width : 530px) and (max-width : 767px){
+    .companies{
+        display: flex;
+        flex-direction: column;
+    }
+    .companies img{
+        margin : 1rem;
     }
 }
 
@@ -249,6 +288,12 @@ body h1{
     margin-bottom : 1.5rem;
 }
 
+@media (min-width : 530px) and (max-width : 767px){
+    .clipboard p{
+        width: 70%;
+    }
+}
+
 .footer {
     display: flex;
     justify-content: space-evenly;
@@ -261,6 +306,16 @@ body h1{
     margin-top : 1.35rem;
     height : 60px;
     width : 60px;
+}
+
+@media (min-width : 530px) and (max-width : 767px){
+    .footer{
+        font-size : 1rem;
+    }
+    .footer > img{
+        height : 50px;
+        width : 50px;
+    }
 }
 
 .social-media{
